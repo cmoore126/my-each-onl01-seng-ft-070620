@@ -7,6 +7,6 @@ end
 
 
     while i < array.length
-      yield(array[i])
+      (array[i])
       i = i + 1
     end
