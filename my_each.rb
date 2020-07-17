@@ -1,8 +1,6 @@
 collection = [1, 2, 3, 4]
-def my_each(collection)
-  my_each do |word|
-    while i < words.length
-      yield (words[i])
+def my_each(collection) do |number|
+    while i < number.length
       i = i + 1
     end
     puts i
